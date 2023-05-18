@@ -15,13 +15,13 @@ jobs:
           - tag: latest
             version: stable
           - tag: 1.27
-            version: v1.27.1
+            version: v1.27.2
           - tag: 1.26
-            version: v1.26.4
+            version: v1.26.5
           - tag: 1.25
-            version: v1.25.9
+            version: v1.25.10
           - tag: 1.24
-            version: v1.24.13
+            version: v1.24.14
     permissions:
       contents: read
       packages: write
