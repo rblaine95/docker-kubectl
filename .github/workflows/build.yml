@@ -5,6 +5,8 @@ on:
   schedule:
     - cron: "0 0 * * *"
   push:
+    branches:
+      - master
 
 jobs:
   build:
@@ -18,11 +20,11 @@ jobs:
           - tag: 1.29
             version: v1.29.1
           - tag: 1.28
-            version: v1.28.6
+            version: v1.28.7
           - tag: 1.27
-            version: v1.27.10
+            version: v1.27.11
           - tag: 1.26
-            version: v1.26.13
+            version: v1.26.14
     permissions:
       contents: read
       packages: write
