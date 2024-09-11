@@ -24,7 +24,7 @@ jobs:
           - tag: "1.29"
             version: v1.29.8
           - tag: "1.28"
-            version: v1.28.13
+            version: v1.28.14
     permissions:
       contents: read
       packages: write
