@@ -17,14 +17,14 @@ jobs:
         include:
           - tag: latest
             version: stable
+          - tag: "1.33"
+            version: v1.33.0
           - tag: "1.32"
-            version: v1.32.3
+            version: v1.32.4
           - tag: "1.31"
-            version: v1.31.7
+            version: v1.31.8
           - tag: "1.30"
-            version: v1.30.11
-          - tag: "1.29"
-            version: v1.29.15
+            version: v1.30.12
     permissions:
       contents: read
       packages: write
