@@ -18,13 +18,13 @@ jobs:
           - tag: latest
             version: stable
           - tag: "1.33"
-            version: v1.33.0
+            version: v1.33.1
           - tag: "1.32"
-            version: v1.32.4
+            version: v1.32.5
           - tag: "1.31"
-            version: v1.31.8
+            version: v1.31.9
           - tag: "1.30"
-            version: v1.30.12
+            version: v1.30.13
     permissions:
       contents: read
       packages: write
