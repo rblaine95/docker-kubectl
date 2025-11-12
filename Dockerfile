@@ -27,7 +27,7 @@ RUN case "$(uname -m)" in \
     chmod +x kubectl
 
 ########################################
-FROM alpine:3
+FROM alpine:3 AS kubectl
 COPY --from=download /opt/kubectl /usr/local/bin/kubectl
 USER 65534
 ENTRYPOINT [ "/usr/local/bin/kubectl" ]
