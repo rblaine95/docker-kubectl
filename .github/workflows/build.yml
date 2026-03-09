@@ -46,7 +46,7 @@ jobs:
           tags: |
             type=raw,value=${{ matrix.version }}
             type=raw,value=${{ matrix.tag }}
-      - uses: docker/build-push-action@v6
+      - uses: docker/build-push-action@v7
         if: ${{ github.event_name == 'push' || github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && matrix.version == 'stable') }}
         with:
           platforms: linux/amd64,linux/arm64
