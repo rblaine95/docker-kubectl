@@ -18,6 +18,8 @@ jobs:
           # https://endoflife.date/kubernetes
           - tag: latest
             version: stable
+          - tag: "1.37"
+            version: v1.37.0
           - tag: "1.36"
             version: v1.36.4
           - tag: "1.35"
